@@ -1,0 +1,1344 @@
+body{
+    margin:0;
+    align-items: center;
+}
+header{
+    width:100%;
+    height:122px;
+    background-color: #fbd1d1;
+}
+
+.container {
+	width: 1103px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+header .menu{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+
+header .logo img{
+    width: auto;
+    height: 122px;
+}
+
+.social{
+    width: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+
+ .vk{
+	width: 40px;
+	height: 40px;
+	background-image: url('../img/vk.png');
+	background-repeat: no-repeat;
+}
+
+.inst{
+	width: 40px;
+	height: 40px;
+	background-image: url('../img/inst.png');
+	background-repeat: no-repeat;
+}
+
+.contact_info  ul{
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.contact_info ul li a{
+    font-size:25px;
+	color: black;
+	text-decoration: none;
+}
+
+nav{
+    width: 525px;
+	max-width: 100%;
+}
+
+nav ul {
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li a{
+    font-size:25px;
+	color: black;
+	text-decoration: none;
+}
+
+section#us .about_us{
+    width:100%;
+    height: 408px;
+    background-color: #ffbbbb;
+    align-items: center;
+    justify-content: center;
+}
+
+section#us .about_us h1{
+    font-size: 30px;
+    margin:0;
+    padding:0;
+    padding-top:16px;
+    text-align: center;
+}
+
+section#us .us_pic{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section#us .us_pic p{
+    margin:0;
+    margin-top:45px;
+    width: 456px;
+    font-size: 24px;
+}
+
+section#us .about_us button{
+    margin:0;
+    margin-top:45px;
+    width: 264px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #fe7d7d;
+    border: 0;
+    border-radius: 15px;
+    height: 65px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+section#us .us_pic img{
+    margin:0;
+    margin-top:45px;
+    width: auto;
+    height: 195px;
+}
+section#us {
+    margin:0;
+    margin-top:79px;
+}
+
+.info_cost_pris{
+    display: flex;
+    justify-content: space-between;
+    margin-top:79px;
+    width:100%;
+    
+}
+
+section#pris .prise{
+    background-color: #fff9f9;
+    width: auto;
+    height: 345px;
+    margin:0;
+}
+
+section h2{
+    font-size:25px;
+    font-weight:normal;
+    text-align: center;
+    margin:0;
+    padding-top:16px;
+}
+
+section#pris .prise table{
+    width: 410px;
+    height: 256px;
+    margin: 0;
+    margin-top:25px;
+    text-align: left;
+    font-size: 25px;
+}
+
+section#pris .prise table .right{
+    text-align: right;
+}
+
+section#cos .cost{
+    width: auto;
+    height: 344px;
+    background-color: #ffe7e7;
+    margin:0;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+section#cos .cost p{
+    font-size: 24px;
+    font-style:italic;
+    text-align: center;
+    margin:0;
+    margin-top:35px;
+
+}
+
+section#cos .cost span{
+   font-weight: bold;
+}
+
+section#galler .gallery{
+    margin-top:79px;
+    background-color: #ffb5b5;
+    height: 461px;
+}
+section#galler .pichers_2{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 321px;
+    margin:29px;
+    flex-wrap: wrap;
+}
+section#galler .pic_1 img{
+    width: 371px;
+    height: auto;
+}
+
+section#galler  .pic_2 img{
+    width: 371px;
+    height: auto;
+}
+
+section#galler  .pic_3 img{
+    width: 239px;
+    height: auto;
+}
+
+section#info_geo{
+    margin:0;
+    padding:0;
+    margin-top:79px;
+}
+section#info_geo .cast{
+    width: 100%;
+    height: 299px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5cdcd;
+}
+
+section#info_geo .cast .info_cast{
+    margin:0;
+    padding:0;
+    text-align: center;
+    width: 396px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section#info_geo .cast .info_cast p{
+    font-size: 25px;
+    margin:0;
+}
+
+section#info_geo .cast .info_cast table{
+    font-size: 25px;
+    width: 346px;
+    height: 85px;
+}
+
+section#info_geo .map iframe{
+    margin:0;
+    padding:0;
+    width:547px;
+    height:290px;
+}
+
+section#contacts{
+    margin: 0;
+    padding: 0;
+    margin-top:79px;
+}
+
+section#contacts .info_contacts{
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    background-color: #ffe7e7;
+    height:371px;
+    align-items: center;
+}
+
+section#contacts .info_contacts p{
+    font-size: 25px;
+    margin:0;
+    padding: 0;
+    margin-top:35px;
+}
+
+section#contacts .info_contacts ul li, section#contacts .social a {
+    font-size: 25px;
+    margin:0;
+    padding: 0;
+    margin-top:35px;
+}
+div#x {
+    position:fixed;
+    bottom:200px;
+    right: 0;
+    width:70px;
+    padding-left: 50px;
+}
+
+div#x img{
+    width:100%;
+    height: auto;
+    border-radius: 40px;
+    opacity: 0.6;
+}
+footer{
+    width: 100%;
+    height: 182px;
+    background-color: #ffd0d0;
+    margin: 0;
+    margin-top:79px;
+    padding:0;
+}
+
+footer .footer_content{
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer .footer_content ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+footer .footer_content ul p{
+    font-size:25px;
+}
+
+footer .footer_content ul li{
+    margin:0;
+    padding:0;
+    margin-top: 30px;
+}
+
+footer .footer_content ul a{
+    font-size:25px;
+    color:black;
+    text-decoration: none;
+}
+
+footer .footer_content ul#left{
+    text-align: left;
+}
+
+footer .footer_content ul#center{
+    text-align: center;
+}
+
+footer .footer_content ul#right{
+    text-align: right;
+}
+
+footer .copy{
+    
+    margin:0;
+    padding:0;
+    background-color: #ffd0d0;
+    text-align: center;
+}
+
+footer .copy p{
+    width: 100%;
+    margin:0;
+   font-size: 18px;
+}
+
+
+.enots{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.enots .ent{
+    text-align: center;
+    width: 330px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 25px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.enots .ent img{
+    width: 60%;
+    height: 35%;
+}
+.enots .ent button{
+    height: 40px;
+    width: 30%;
+    background-color: darksalmon;
+    border-radius: 20px;
+}
+.enots_h2{
+    margin-bottom: 30px;
+}
+@media screen and (max-width:1208px){
+    .container{
+    width: 1000px;
+	max-width: 100%;
+    }
+
+    header{
+        height:100px;
+    }
+
+    header .logo img{
+        height: 100px;
+    }
+    .social{
+        width: 90px;
+    }
+    
+    .contact_info ul li a{
+        font-size:23px;
+    }
+    nav ul li a{
+        font-size:23px;
+    }
+
+    section#us .about_us h1{
+        font-size: 28px;
+    }
+    section#us .us_pic p{
+        font-size: 22px;
+    }
+
+    section#us .about_us button{
+        font-size: 23px;
+        width: 254px;
+        height: 55px;
+    }
+    section h2{
+        font-size:23px;
+    }
+    section#pris .prise table{
+        font-size: 23px;
+        width: 415px;
+    }
+    section#cos .cost{
+        width: 500px;
+    }
+    
+    section#cos .cost p{
+        font-size: 22px;    
+    }
+
+    section#galler .pichers_2 img{
+        margin:0;
+        margin-top:5px;
+        
+    }
+    section#galler .pichers_2{
+        height: 650px;
+        
+    }
+
+    section#galler .gallery{
+        padding-bottom: 30px;
+        margin-top:75px;
+        height: auto;
+        align-items: center;
+    }
+
+    section#info_geo .cast .info_cast p{
+        font-size: 23px;
+    }
+    section#info_geo .cast .info_cast table{
+        font-size: 23px;
+    }
+    section#contacts .info_contacts p{
+        font-size: 23px;
+    }
+    section#contacts .info_contacts ul li, section#contacts .social a {
+        font-size: 23px;
+    }
+    footer .footer_content ul p{
+        font-size:23px;
+    }
+    footer .footer_content ul a{
+        font-size:23px;
+    }
+    footer .copy p{
+       font-size: 17px;
+    }
+    section#info_geo .map iframe{
+        width:523px;
+        height: 277px;
+    }
+    footer{
+        margin-top:75px;
+       /* height: 172px;*/
+    }
+    footer .footer_content ul li{
+        margin-top: 25px;
+    }
+    section#contacts{
+        margin-top:75px;
+    }
+    section#contacts .info_contacts{
+        height:361px;
+    }
+    section#info_geo{
+        margin-top:75px;
+    }
+    section#info_geo .cast{
+        height: 289px;
+    }
+    .info_cost_pris{
+        margin-top:75px;
+    }
+    section#pris .prise{
+        height: 335px;
+    }
+    section#cos .cost{
+        height: 334px;
+    }
+    section#us {
+        margin-top:75px;
+    }
+    section#us .about_us{
+        height: 398px;
+    }
+
+
+}
+
+@media screen and (max-width:1067px){
+    .container{
+    width: 950px;
+     max-width: 100%;
+    }
+    header{
+        height:95px;
+    }
+    header .logo img{
+     height: 95px;
+    }
+    .social{
+     width: 85px;
+    }
+
+    .contact_info ul li a{
+         font-size:21px;
+    }
+     nav ul li a{
+         font-size:21px;
+    }
+    
+    section#us .about_us h1{
+      font-size: 26px;
+    }
+    section#us .us_pic p{
+        margin-top:37px;
+        font-size: 21px;
+    }
+    
+    section#us .about_us button{
+      font-size: 21px;
+      width: 244px;
+      height: 50px;
+      margin-top:37px;
+    }
+    section#us .us_pic img{
+        margin-top:37px;
+        height: 155px;
+        width: auto;
+    }
+    section h2{
+        font-size:21px;
+     }
+    section#pris .prise table{
+        font-size: 21px;
+        width: 410px;
+    }
+    section#cos .cost{
+        width: 450px;
+    }
+    section#cos .cost p{
+        font-size: 20px;    
+    }
+
+    section#galler .pichers_2 {
+        margin: 24px;
+    }
+
+    section#info_geo .cast .info_cast p{
+        font-size: 21px;
+    }
+    section#info_geo .cast .info_cast table{
+        font-size: 21px;
+        width: 280px;
+    }
+    section#contacts .info_contacts p{
+        font-size: 21px;
+    }
+    section#contacts .info_contacts ul li, section#contacts .social a {
+        font-size: 21px;
+    }
+    footer .footer_content ul p{
+        font-size:21px;
+    }
+    footer .footer_content ul a{
+        font-size:21px;
+    }
+    footer .copy p{
+        font-size: 16px;
+    }
+    section#info_geo .map iframe{
+        width:480px;
+        height: 265px;
+    }
+    footer .footer_content ul li{
+        margin-top: 20px;
+    }
+    footer{
+        margin-top:71px;
+        height: 162px;
+    }
+    section#contacts{
+        margin-top:71px;
+    }
+    section#contacts .info_contacts{
+        height:351px;
+    }
+    section#info_geo{
+        margin-top:71px;
+    }
+    section#info_geo .cast{
+        height: 279px;
+    }
+    section#pris .prise{
+        height: 325px;
+    }
+    section#cos .cost{
+        height: 324px;
+    }
+    .info_cost_pris{
+        margin-top:71px;
+    }
+    section#us {
+        margin-top:71px;
+    }
+    section#us .about_us{
+        height: 350px;
+    }
+    section#galler .gallery{
+        margin-top: 50px;
+    }
+    footer{
+        margin-top:50px;
+    }
+    section#contacts{
+        margin-top:50px;
+    }
+
+    section#info_geo{
+        margin-top:50px;
+    }
+    .info_cost_pris{
+        margin-top:50px;
+    }
+    section#us {
+        margin-top:50px;
+    }
+    
+}
+
+@media screen and (max-width:990px){
+    .container{
+    width: 800px;
+     max-width: 100%;
+    }
+    div#x{
+        bottom: 130px;
+    }
+    header{
+        height:90px;
+    }
+    header .logo img{
+     height: 90px;
+    }
+    header .menu .social{
+        display: none;
+    }
+        
+    .contact_info ul li a{
+         font-size:19px;
+    }
+     nav ul li a{
+         font-size:19px;
+    }
+    
+    section#us .about_us h1{
+      font-size: 24px;
+    }
+    section#us .us_pic p{
+        font-size: 20px;
+    }
+    
+    section#us .about_us button{
+      font-size: 19px;
+      width: 234px;
+      height: 45px;
+    }
+    section#us .us_pic img{
+        margin-top:37px;
+        height: 145px;
+        width: auto;
+    }
+    section h2{
+        font-size:19px;
+     }
+    section#pris .prise table{
+        font-size: 19px;
+        width: 350px;
+    }
+    section#cos .cost{
+        width: 400px;
+    }
+    section#cos .cost p{
+        font-size: 19px;    
+    }
+    section#galler .pichers_2 {
+        margin: 20px;
+    }
+    section#info_geo .cast .info_cast p{
+        font-size: 19px;
+    }
+    section#info_geo .cast .info_cast table{
+        font-size: 19px;
+    }
+    section#contacts .info_contacts p{
+        font-size: 19px;
+    }
+    section#contacts .info_contacts ul li, section#contacts .social a {
+        font-size: 19px;
+    }
+    footer .footer_content ul p{
+        font-size:19px;
+    }
+    footer .footer_content ul a{
+        font-size:19px;
+    }
+    footer .copy p{
+        font-size: 15px;
+    }
+    section#info_geo .map iframe{
+        width:380px;
+        height: 260px;
+    }
+    footer .footer_content ul li{
+        margin-top: 15px;
+    }
+    footer{
+        margin-top:67px;
+        height: 152px;
+    }
+    section#contacts{
+        margin-top:67px;
+    }
+    section#contacts .info_contacts{
+        height:341px;
+    }
+    section#info_geo{
+        margin-top:67px;
+    }
+    section#info_geo .cast{
+        height: 269px;
+    }
+    section#pris .prise{
+        height: 315px;
+    }
+    section#cos .cost{
+        height: 314px;
+    }
+    .info_cost_pris{
+        margin-top:67px;
+    }
+    section#us {
+        margin-top:67px;
+    }
+    section#us .about_us{
+        height: 320px;
+    }
+    section#galler .gallery{
+        margin-top: 50px;
+    }
+    footer{
+        margin-top:50px;
+    }
+    section#contacts{
+        margin-top:50px;
+    }
+
+    section#info_geo{
+        margin-top:50px;
+    }
+    .info_cost_pris{
+        margin-top:50px;
+    }
+    section#us {
+        margin-top:50px;
+    }
+}
+
+@media screen and (max-width:859px){
+    .container{
+    width: 750px;
+    max-width: 100%;
+    }
+    header{
+        height:80px;
+    }
+
+    .contact_info ul li a{
+        font-size:17px;
+    }
+     nav ul li a{
+        font-size:17px;
+    }
+    nav{
+        width:450px;
+    }
+    
+    section#us .about_us h1{
+      font-size: 22px;
+    }
+    section#us .us_pic p{
+        font-size: 18px;
+        height:145px;
+        width:350px;
+    }
+    
+    section#us .about_us button{
+      font-size: 17px;
+      width: 224px;
+      height: 40px;
+      margin-top:30px;
+    }
+
+    section h2{
+        font-size:17px;
+     }
+    section#pris .prise table{
+        margin-top:15px;
+        font-size: 17px;
+        width: 350px;
+    }
+    section#cos .cost{
+        width: 350px;
+    }
+    section#cos .cost p{
+        font-size: 17px;    
+    }
+    section#info_geo .cast .info_cast p{
+        font-size: 17px;
+    }
+    section#info_geo .cast .info_cast table{
+        font-size: 17px;
+    }
+    section#contacts .info_contacts p{
+        font-size: 17px;
+        margin-top:25px;
+    }
+    section#contacts .info_contacts ul li, section#contacts .social a {
+        font-size: 17px;
+        margin-top:25px;
+    }
+    footer .footer_content ul p{
+        font-size:17px;
+    }
+    footer .footer_content ul a{
+        font-size:17px;
+    }
+    footer .copy p{
+        font-size: 14px;
+    }
+    section#info_geo .map iframe{
+        width:370px;
+        height:250px;
+    }
+    footer{
+        margin-top:63px;
+        height: 142px;
+    }
+    section#contacts{
+        margin-top:63px;
+    }
+    section#contacts .info_contacts{
+        height:290px;
+    }
+    section#info_geo{
+        margin-top:63px;
+    }
+    section#info_geo .cast{
+        height: 259px;
+    }
+    section#info_geo .cast .info_cast{
+        width:330px;
+    }
+
+    section#pris .prise{
+        height: 305px;
+    }
+    section#cos .cost{
+        height: 304px;
+    }
+    .info_cost_pris{
+        margin-top:63px;
+    }
+    section#us {
+        margin-top:63px;
+    }
+    section#us .about_us{
+        height: 310px;
+    }
+    section#galler .gallery{
+        margin-top: 40px;
+    }
+    footer{
+        margin-top:40px;
+    }
+    section#contacts{
+        margin-top:40px;
+    }
+
+    section#info_geo{
+        margin-top:40px;
+    }
+    .info_cost_pris{
+        margin-top:40px;
+    }
+    section#us {
+        margin-top:40px;
+    }
+}
+
+@media screen and (max-width:808px){
+    .container{
+    width: 700px;
+     max-width: 100%;
+    }
+    header{
+        height:75px;
+    }
+    header .logo img{
+     height: 75px;
+    }
+        
+    .contact_info ul li a{
+         font-size:15px;
+    }
+     nav ul li a{
+         font-size:15px;
+    }
+    
+    section#us .about_us h1{
+      font-size: 20px;
+    }
+    section#us .us_pic p{
+        font-size: 17px;
+        height:145px;
+        width:330px;
+    }
+    
+    section#us .about_us button{
+      font-size: 15px;
+      width: 214px;
+      height: 35px;
+      margin-top:30px;
+    }
+    section h2{
+        font-size:15px;
+     }
+    section#pris .prise table{
+        font-size: 15px;
+        width: 270px;
+        height: 200px;
+    }
+    section#pris .prise table th, section#pris .prise table td{
+        padding-top:0;
+    }
+    section#cos .cost{
+        width: 370px;
+    }
+    section#cos .cost p{
+        font-size: 15px;  
+        margin-top: 30px;  
+    }
+    section#galler .pichers_2 {
+        margin: 18px;
+    }
+    section#info_geo .cast .info_cast p{
+        font-size: 15px;
+    }
+    section#info_geo .cast .info_cast table{
+        font-size: 15px;
+        width: 250px;
+    }
+    section#contacts .info_contacts p{
+        font-size: 15px;
+    }
+    section#contacts .info_contacts ul li, section#contacts .social a {
+        font-size: 15px;
+    }
+    footer .footer_content ul p{
+        font-size:15px;
+    }
+    footer .footer_content ul a{
+        font-size:15px;
+    }
+    footer .copy p{
+        font-size: 13px;
+    }
+    section#info_geo .map iframe{
+        height:230px;
+        width:370px;
+        margin-right:5px;
+    }
+    footer{
+        margin-top:59px;
+        height: 120px;
+    }
+    section#contacts{
+        margin-top:59px;
+    }
+    section#contacts .info_contacts{
+        height:270px;
+    }
+    section#info_geo{
+        margin-top:59px;
+    }
+    section#info_geo .cast{
+        height: 249px;
+    }
+    section#pris .prise{
+        height: 250px;
+    }
+    section#cos .cost{
+        height: 250px;
+    }
+    .info_cost_pris{
+        margin-top:59px;
+    }
+    section#us {
+        margin-top:59px;
+    }
+    section#us .about_us{
+        height: 300px;
+    }
+    section#galler .gallery{
+        margin-top: 40px;
+    }
+    footer{
+        margin-top:40px;
+    }
+    section#contacts{
+        margin-top:40px;
+    }
+
+    section#info_geo{
+        margin-top:40px;
+    }
+    .info_cost_pris{
+        margin-top:40px;
+    }
+    section#us {
+        margin-top:40px;
+    }
+}
+
+@media screen and (max-width:757px){
+    .container{
+    width: 650px;
+    max-width: 100%;
+    }
+    section#galler .pichers_2{
+        height:900px;
+    }
+    section#galler .pichers_2 img {
+       margin:20px; 
+    }
+    section#cos .cost{
+        width:300px;
+    }
+    section#info_geo .map iframe{
+        width:350px;
+    }
+}
+
+@media screen and (max-width:685px){
+    .container{
+    width: 550px;
+    max-width: 100%;
+    }
+    header .menu .contact_info{
+        display:none;
+    }
+    nav{
+        width:450px;
+        padding-right: 10px;
+    }
+    nav ul li a{
+        font-size:14px;
+    }
+    section#us .us_pic p{
+        font-size:16px;
+        height: 160px;
+        width: 250px;
+        margin-top:27px;
+    }
+    section#us .us_pic img {
+        height: 160px;
+        margin-top:27px;
+    }
+    section#us .about_us button{
+        font-size:14px;
+        margin-top:27px;
+    }
+    section#pris .prise{
+        width:250px;
+        height:250px;
+    }
+    section#pris .prise table {
+        margin-top:10px;
+        width:250px;
+    }
+    section#cos .cost{
+        width:250px;
+        height:250px;
+    }
+    section#cos .cost p{
+        margin-top:25px;
+    }
+    section#galler .pichers_2{
+        margin-left:14px;
+    }
+    section#info_geo .map iframe{
+        width:290px;
+    }
+    section#galler .gallery{
+        margin-top: 30px;
+    }
+    footer{
+        margin-top:30px;
+    }
+    section#contacts{
+        margin-top:30px;
+    }
+
+    section#info_geo{
+        margin-top:30px;
+    }
+    .info_cost_pris{
+        margin-top:30px;
+    }
+    section#us {
+        margin-top:30px;
+    }
+}
+
+@media screen and (max-width:577px){
+    .container{
+    width: 450px;
+    max-width: 100%;
+    }
+    nav{
+    justify-content: space-around;
+    width: 350px;
+    }
+
+    section#us .us_pic img{
+        margin-top:15px;
+        display:block;
+        margin:auto;
+        width: 250px;
+        height: auto;
+        margin-top:15px;
+    }
+    section#us .us_pic p{
+        font-size:15px;
+        margin-top:15px;
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: center;
+        height:auto;
+    }
+    section#us .about_us button{
+        margin-top:15px;
+    }
+    section#pris .prise{
+        width:200px;
+        height:250px;
+    }
+    section#pris .prise table{
+        width:200px;
+    }
+    section#cos .cost{
+        width:200px;
+        height:250px;
+    }
+    section#us .about_us {
+        height: 385px;
+    }
+    section#us .us_pic {
+        display:block;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    section#galler .pichers_2{
+        margin-left:11.5px;
+    }
+    section#info_geo .cast{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+    section#info_geo .cast .info_cast{
+        display: block;
+        margin: auto;
+        width: auto;
+    }
+    section#info_geo .map iframe{
+        width:400px;
+        margin-top:5px;
+        margin-bottom: 15px;
+    }
+    section#info_geo .cast .info_cast table {
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        width:150px;
+    }
+    section#info_geo .cast .info_cast p{
+        margin-top:16px;
+    }
+}
+
+@media screen and (max-width:476px){
+    .container{
+    width: 350px;
+    max-width: 100%;
+    }
+
+    div#x{
+        width: 50px;
+    }
+
+nav{
+    width:260px;
+}
+
+    section#us .about_us{
+        height:400px;
+    }
+    .info_cost_pris{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    section#pris .prise{
+        margin:auto;
+        width: auto;
+    }
+    section#pris .prise table{
+        margin:auto;
+        width:300px;
+    }
+    section#cos .cost{
+        margin:auto;
+        margin-top:30px;
+        width: auto;
+        height: auto;
+        padding-bottom:25px;
+    }
+    section#info_geo .map iframe{
+        width:auto;
+    }
+    section#galler .pichers_2 img{
+        width:300px;
+    }
+    footer .footer_content ul li a, footer .footer_content ul li p{
+        font-size:14px;
+    } 
+    footer .copy p{
+        font-size: 13px;
+    }
+    section#galler .pichers_2{
+        margin-left:10px;
+    }
+    section#info_geo .map iframe{
+        width:280px;
+    }
+}
+
+@media screen and (max-width:369px){
+    .container{
+    width: 300px;
+    max-width: 100%;
+    }
+    nav{
+        width: 210px;
+    }
+
+    footer .footer_content ul li a, footer .footer_content ul li p{
+        font-size: 12px;
+    }
+    footer .copy p {
+        font-size: 11px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+    section#us .about_us{
+        height:460px;
+    }
+    section#pris .prise table {
+        width: 280px;
+    }
+    section#galler .pichers_2 img{
+        width:270px;
+    }
+    section#galler .pichers_2{
+        margin-left:9px;
+    }
+
+}
